@@ -19,7 +19,7 @@
     }
   },
   "scripts": {
-    "dev": "dotenv vite",
+    "dev": "vite",
     "build": "vue-tsc --noEmit && vite build && electron-builder",
     "preview": "vite preview"
   },
